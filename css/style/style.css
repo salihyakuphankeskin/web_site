@@ -23,6 +23,7 @@
     --B6: #90e0efff;
     --B7: #ade8f4ff;
     --B8: #caf0f8ff;
+
 }
 
 html{
@@ -33,15 +34,11 @@ html::-webkit-scrollbar {
     display: none;
 }
 body{    
-    height: 3000px;
-    background: linear-gradient(
-        180deg, rgb(87, 18, 3) 0%,
-         rgb(8, 92, 8) 50%,
-          rgb(2, 19, 75) 100%);
+    min-height: 100vh;
+    background: repeating-linear-gradient(180deg, var(--A1) 0%, var(--A2) 100% );
+    display: flex;
+    flex-flow: column
 }
-
-/* body {
-    position: fixed;    display: flex;
-    flex-flow: column;    height: 100vh;
-    background-color: var(--C4);    align-items: center;
-} */
+.main_section{
+    flex: 1;
+}

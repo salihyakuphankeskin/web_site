@@ -1,6 +1,6 @@
 :root{
     --nav: 6rem;
-    --nav_color: var(--C1);
+    --nav_color: var(--A5);
     --nav_width: 100%;
 
 }
@@ -15,7 +15,6 @@
     width: var(--nav_width);
 
     position: fixed; display: flex; 
-    background: var(--A5);
     justify-content: space-evenly;
 }
 .nav_sec{
@@ -23,9 +22,9 @@
     align-items: center; justify-content: center;
 }
 .nav_btn{
-    min-width: fit-content; height: 80%; padding: 2em;
+    min-width: fit-content; height: 80%; padding: 0 4em;
     display: flex; align-items: center; justify-content: center;
-    border-radius: 0.5em; background: var(--A4);
+    border-radius: 0.2em; background: var(--A4);
 }
 .nav_text{
     font-weight: 500; letter-spacing: 0.1em;
