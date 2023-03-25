@@ -1,5 +1,33 @@
+:root {
+    --C1: #177e89ff;
+    --C2: #084c61ff;
+    --C3: #db3a34ff;
+    --C4: #ffc857ff;
+    --C5: #323031ff;
+
+    --font1: 'Noto Sans', sans-serif;
+    --font2: 'Public Sans', sans-serif;
+
+    --A1:#e63946;
+    --A2:#f1faee;
+    --A3:#a8dadc;
+    --A4:#457b9d;
+    --A5:#1d3557;
+
+    --B1: #03045eff;
+    --B2: #023e8aff;
+    --B3: #0077b6ff;
+    --B4: #0096c7ff;
+    --B4: #00b4d8ff;
+    --B5: #48cae4ff;
+    --B6: #90e0efff;
+    --B7: #ade8f4ff;
+    --B8: #caf0f8ff;
+}
+
 html{
     font-size: 10px;
+    font-family: var(--font1);
 }
 html::-webkit-scrollbar {
     display: none;
@@ -11,3 +39,9 @@ body{
          rgb(8, 92, 8) 50%,
           rgb(2, 19, 75) 100%);
 }
+
+/* body {
+    position: fixed;    display: flex;
+    flex-flow: column;    height: 100vh;
+    background-color: var(--C4);    align-items: center;
+} */
