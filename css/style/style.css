@@ -1,0 +1,13 @@
+html{
+    font-size: 10px;
+}
+html::-webkit-scrollbar {
+    display: none;
+}
+body{    
+    height: 3000px;
+    background: linear-gradient(
+        180deg, rgb(87, 18, 3) 0%,
+         rgb(8, 92, 8) 50%,
+          rgb(2, 19, 75) 100%);
+}

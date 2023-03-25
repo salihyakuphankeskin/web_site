@@ -1,0 +1,22 @@
+:root{
+    --nav: 4rem;
+    --nav_color: black;
+    --nav_width: 100%;
+
+}
+.nav_holder{
+    height: var(--nav); 
+    background-color: var(--nav_color); 
+    width: var(--nav_width);
+}
+.navigation{
+    height: var(--nav); 
+    background-color: var(--nav_color); 
+    width: var(--nav_width);
+    
+    position: fixed; display: flex; color: white;
+    border: 1px solid gray;
+}
+.nav_sec{}
+.nav_btn{}
+.nav_text{}
