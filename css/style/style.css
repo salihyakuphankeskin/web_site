@@ -8,11 +8,12 @@
     --font1: 'Noto Sans', sans-serif;
     --font2: 'Public Sans', sans-serif;
 
-    --A1:#e63946;
+    --A1:rgb(230, 57, 70);
     --A2:#f1faee;
     --A3:#a8dadc;
     --A4:#457b9d;
     --A5:#1d3557;
+    --A6:rgb(230, 57, 70,0.9);
 
     --B1: #03045eff;
     --B2: #023e8aff;
@@ -35,7 +36,7 @@ html::-webkit-scrollbar {
 }
 body{    
     min-height: 100vh;
-    background: repeating-linear-gradient(180deg, var(--A1) 0%, var(--A2) 100% );
+    background: var(--A6);
     display: flex;
     flex-flow: column
 }

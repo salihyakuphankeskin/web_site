@@ -10,8 +10,6 @@
 .footer_part{
     display: flex;
     flex-flow: column;
-    max-width: 40%;
-    min-width: 20%;
     justify-content: center;
     height: var(--footer);
 }
@@ -44,4 +42,10 @@
 }
 .footer_body>a>img{
     width: 4rem;
+}
+#footer_right{
+    width: 40rem;
+}
+#footer_left{
+    width: 30rem;
 }

@@ -1,0 +1,11 @@
+.main{
+    padding: 0 20%;
+    min-height: inherit;
+    display: flex;
+    flex-flow: column;
+}
+.main_part{
+    display: none;
+    min-height: 60rem;
+
+}

@@ -1,0 +1,27 @@
+#resume_contain{
+    font-size: 2rem;
+    color: var(--A2);
+    flex: 1;
+}
+.resume_header{
+    border-bottom: 2px solid var(--A2);
+    font-size: 1.5em;
+    padding: 0.4em 0 0.2em 2em;
+    color: var(--A5);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.resume_paragraph{
+    padding: 1em;
+}
+.resume_paragraph{
+    display: flex;
+    flex-flow: column wrap;
+}
+.resume_paragraph> span:not(:nth-last-of-type(1)) {
+    padding-bottom: 10px;;
+}
+.resume_paragraph>span>a{
+    font-weight: 300;
+    font-style: italic;
+}
