@@ -42,4 +42,5 @@ body{
 }
 .main_section{
     flex: 1;
+    min-height: fit-content;
 }

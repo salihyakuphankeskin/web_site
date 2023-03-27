@@ -1,5 +1,49 @@
+:root{
+    --animation_size: 20rem;
+}
 #home_contain{
-    font-size: 2rem;
-    color: var(--A2);
-    flex: 1;
+    font-size: 2rem; color: var(--A2);
+    flex: 1; padding: 10px;
+    display: flex; justify-content: center;
+    align-items: center;
+}
+.sub_main{
+    width: var(--animation_size); height: var(--animation_size);
+    border-radius: 50%; overflow: hidden;    
+    display: flex; justify-content: center;
+    align-items: center; background: var(--A4);
+}
+.sub_main>div{
+    width: 100%; height: 10%;
+    position: relative; left: -50%;    
+    background: var(--A2); display: flex; 
+    justify-content: center; align-items: center;
+    animation: clock_rotate 10s infinite linear;
+    transform-origin: right;
+}  
+@keyframes clock_rotate {
+    0% {transform: rotate(0);}
+    100% {transform: rotate(360deg);}
+}
+
+.sub_main>div>div{
+    width: calc(var(--animation_size)*0.8); 
+    height: calc(var(--animation_size)*0.8);
+    border-radius: 50%; position: relative;
+    left: 50%; background: var(--A4);
+    display: flex; justify-content: center;
+    align-items: center; flex-flow: column;
+    font-weight: 700; letter-spacing: 0.2em;
+    animation: clock_rotate 10s reverse infinite linear;
+    background-color: var(--A1);
+    /* background-image: linear-gradient( 
+        var(--A1) 0%,  var(--A1) 15%,
+        var(--A5) 25%, var(--A5) 37%, 
+        var(--A1) 41%, var(--A1) 59%, 
+        var(--A5) 63%, var(--A5) 75%, 
+        var(--A1) 85%, var(--A1) 100%
+        ); */
+} 
+.sub_main>div>div>span:not(:nth-last-of-type(1)){
+    padding-bottom: 10px;
 }

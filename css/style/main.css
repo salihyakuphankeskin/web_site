@@ -1,11 +1,9 @@
 .main{
     padding: 0 20%;
-    min-height: inherit;
+    min-height: fit-content;
     display: flex;
     flex-flow: column;
 }
 .main_part{
     display: none;
-    min-height: 60rem;
-
 }
