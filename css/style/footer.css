@@ -6,6 +6,7 @@
     height: var(--footer);    width: 100%;
     background-color: var(--footer_color);
     display: flex; justify-content: space-evenly;
+    padding-bottom: 10rem;
 }
 .footer_part{
     display: flex;

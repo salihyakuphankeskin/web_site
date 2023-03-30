@@ -1,17 +1,30 @@
 :root{
     --animation_size: 20rem;
 }
+.main{
+    animation: color_slide 0s  ease-in-out;
+}
 #home_contain{
     font-size: 2rem; color: var(--A2);
     flex: 1; padding: 10px;
     display: flex; justify-content: center;
     align-items: center;
 }
+@keyframes color_slide {
+    0%{}
+    50%{
+        background-color: black;
+
+    }
+    100%{}
+    
+}
 .sub_main{
     width: var(--animation_size); height: var(--animation_size);
     border-radius: 50%; overflow: hidden;    
     display: flex; justify-content: center;
     align-items: center; background: var(--A4);
+    animation: exist 4s infinite linear, come_out 2s;
 }
 .sub_main>div{
     width: 100%; height: 10%;
@@ -22,9 +35,19 @@
     transform-origin: right;
 }  
 @keyframes clock_rotate {
-    0% {transform: rotate(0);}
+    0% {transform: rotate(0);} 
     100% {transform: rotate(360deg);}
 }
+@keyframes exist {
+    50% {background-color: var(--A5);}
+    100% {}
+}
+@keyframes come_out {
+    0%{
+        opacity: 0%;
+    }   
+}
+
 
 .sub_main>div>div{
     width: calc(var(--animation_size)*0.8); 

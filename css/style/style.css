@@ -42,5 +42,8 @@ body{
 }
 .main_section{
     flex: 1;
-    min-height: fit-content;
+    min-height: 100vh;
+    padding-top: var(--nav);
+    display: flex;
+    flex-flow: column;
 }

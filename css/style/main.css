@@ -3,6 +3,7 @@
     min-height: fit-content;
     display: flex;
     flex-flow: column;
+    flex: 1;
 }
 .main_part{
     display: none;
